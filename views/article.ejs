@@ -1,0 +1,13 @@
+<% if(typeof article === 'undefined'){%>
+<h4>No article by this name....go <a href="/">home</a></h4>
+<%}else{%>
+<%= article.id%>
+<a href="/"><%= article.id%></a>
+<br>
+<%= article.title%>
+<br>
+<%= article.author%>
+<br>
+<%= article.text%>
+
+<%}%>

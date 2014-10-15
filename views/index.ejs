@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  <form action="/articles" method="POST">
+  <p>
+    <label for="title">Title </label>
+    <input type="text" name="article[title]" id="title">
+  </p>
+  <p>
+    <label for="author">Author </label>
+    <input type="text" name="article[author]" id="author">
+  </p>
+
+  <p>
+    <label for="text">Text</label>
+    <input type="text" name="article[text]" id="text">
+  </p>
+
+  <input type="submit" value="Add Article">
+  </form>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<h1>List of Articles!</h1>
+
+<% allMyArticles.forEach(function(article){ %>
+<a href="/article/<%= article.id%>">article</a>
+<br>
+<%= article.title%>
+<br>
+<%= article.author%>
+<br>
+<%= article.text%>
+<br>
+<% })%>
